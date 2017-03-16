@@ -114,7 +114,7 @@ else:
     
     main_contract_code = \
     """
-    pragma solidity ^0.4.6;
+    pragma solidity ^0.4.9;
 
     contract CCCoin payable {
         event TheLog(bytes);
@@ -247,7 +247,7 @@ def test_rewards(via_cli = False):
     
     code = \
     """
-    pragma solidity ^0.4.6;
+    pragma solidity ^0.4.9;
 
     contract CCCoinToken {
         event TheLog(bytes);
@@ -302,7 +302,7 @@ def test_3(via_cli = False):
 
     code = \
     """
-    pragma solidity ^0.4.6;
+    pragma solidity ^0.4.9;
 
     contract CCCoinToken {
         event TheLog(bytes);
@@ -426,7 +426,7 @@ def test_1(via_cli = False):
 
     code = \
     """
-    pragma solidity ^0.4.6;
+    pragma solidity ^0.4.9;
 
     contract CCCoinToken {
         event TheLog(bytes);
